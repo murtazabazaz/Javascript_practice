@@ -39,10 +39,11 @@ console.log(a, '\n' + f); // removes the first element and returns the value.
 let g = a.unshift(1);
 console.log(a + '\nNew array length = ' + g);
 
-// delete Method..
-
+// delete (this is an operator not method)..
+console.log(a.length)
 delete a[1];
-console.log(a);
+console.log('delete',  a); //array size remains same
+console.log(a.length)
 
 // concat method..
 
