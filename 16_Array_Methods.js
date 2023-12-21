@@ -3,7 +3,7 @@ const prompt = require('prompt-sync')();
 // Array Methods...
 
 // toString Method..
-let a = [1, 2, 3, 4, 5, 6, 7, 8];
+let a = [1, 2, 3, 4, 5, 6, 7, 8, 21, 12, 31];
 console.log(a, typeof a);
 
 let b = a.toString(); //coverts array 'a' to string.
@@ -42,7 +42,7 @@ console.log(a + '\nNew array length = ' + g);
 // delete (this is an operator not method)..
 console.log(a.length)
 delete a[1];
-console.log('delete',  a); //array size remains same
+console.log('delete', a); //array size remains same
 console.log(a.length)
 
 // concat method..

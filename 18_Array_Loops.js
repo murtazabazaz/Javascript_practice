@@ -1,5 +1,6 @@
-// Using loops in Arrays...
+const prompt = require('prompt-sync')();
 
+// Using loops in Arrays...
 // Normal for loop...
 
 let a = [1, 4, 5, 3, 2, 4, 7, 6];
@@ -10,7 +11,7 @@ for(let i =0;i<a.length;i++){
 
 // For each loop...
 
-let num = [2,4,3,2,6,10];
+let num = [2,4,3,2,6,10,23,45,32];
 
 num.forEach((ab) =>{
     console.log('\nSquare root of array elements using for each loop -: ', ab*ab)
@@ -41,7 +42,7 @@ for(let i of b){
 
 // for in loop...
 
-let c = [2,23,30,45,59,62];
+let c = [2,23,30,45,59,62,321,1233];
 
 for(let j in c){
     console.log('For in loop prints the keys (index no) of elements -:  index no = ' + j +' value = ' + c[j])

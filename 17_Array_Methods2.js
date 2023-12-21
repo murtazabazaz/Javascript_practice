@@ -1,3 +1,5 @@
+const prompt = require('prompt-sync')();
+
 // Sort Method (upadtes the original array.)...
 
 let a = [22, 121, 554, 765, 87, 32, 11];
