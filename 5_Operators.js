@@ -8,7 +8,7 @@ console.log("a * b =", a*b)
 console.log("a / b =", a/b)
 console.log("a ** b =", a**b)
 console.log("a % b =", a%b)
-console.log("++a  =", ++a) // print first the increment
+console.log("++a  =", ++a) // print first then increment
 console.log("a++  =", a++)// print first then decrement 
 console.log("--a  =", --a)// add the number then print it
 console.log("a--  =", a--)// subtract then print it
@@ -35,3 +35,4 @@ console.log(x>y || x==5) //any one of the cases should be true
 console.log(!false) // it prints the opposite of false
 console.log(!true) // it prints the opposite of true
 
+console.log('thanks ')
