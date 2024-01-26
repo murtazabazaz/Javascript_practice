@@ -63,3 +63,4 @@ else{
 let marks = prompt("Enter your marks-: ");
 marks = Number.parseInt(marks);
 console.log(marks>=33? "you passed":"you failed");
+// done..
