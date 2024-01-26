@@ -36,3 +36,5 @@ let k = 1;
    k++;
  }
 console.log("The sum of first " + a + " numbers is " +sums);
+
+//done
